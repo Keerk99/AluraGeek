@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="shortcut icon" href="resources/img/logo_game.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/622f040033.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="resources/css/variables.css">
+    <link rel="stylesheet" href="resources/css/header/style.css">
+    <link rel="stylesheet" href="resources/css/main/style.css">
+    <link rel="stylesheet" href="resources/css/footer/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container__header">
+            <div class="logo">
+                <a href="#" class="logo__img"></a>
+            </div>
+            <nav class="navbar">
+                <input type="text" class="navbar__search" placeholder="¿Qué deseas buscar?">
+                <a href="#" class="navbar__button"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </nav>
+            <div class="button__container">
+                <button class="button__login"><a href="screens/login.html">Login</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="container__banner">
+                <div class="banner__promotion">
+                    <h1 class="promotion__text">Febrero Promocional</h1>
+                    <p class="promotion__description">Productos seleccionados con 33% de descuento</p>
+                    <button class="promotion__button"><a href="#products2">Ver Consolas</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="products1" id="products1">
+            <div class="container__productos1">
+                <div class="products">
+                    <h2 class="products__category">Star Wars</h2>
+                    <a href="#" class="products__all" data-category="Star Wars">Ver Todo <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="products__container">
+                    <ul class="products__list" data-list1>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="products2" id="products2">
+            <div class="container__productos2">
+                <div class="products">
+                    <h2 class="products__category">Consolas</h2>
+                    <a href="#" class="products__all" data-category="Consolas">Ver Todo <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="products__container">
+                    <ul class="products__list" data-list2>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="products3" id="products3">
+            <div class="container__productos3">
+                <div class="products">
+                    <h2 class="products__category">Diversos</h2>
+                    <a href="#" class="products__all" data-category="Diversos">Ver Todo <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="products__container">
+                    <ul class="products__list" data-list3>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container__footer">
+            <div class="container__img">
+                <a href="#" class="logo__img"></a>
+            </div>
+            <div class="container__links">
+                <ul class="links__list">
+                    <li class="links__name"><a href="#">Quienes Somos</a></li>
+                    <li class="links__name"><a href="#">Política de Privacidad</a></li>
+                    <li class="links__name"><a href="#">Programa de Fidelidad</a></li>
+                    <li class="links__name"><a href="#">Nuestras Tiendas</a></li>
+                    <li class="links__name"><a href="#">Quiero ser Fraquiciado</a></li>
+                    <li class="links__name"><a href="#">Anúncie Aquí</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3 class="title">Hable con nosotros</h3>
+                <div class="contact__container">
+                    <form action="" class="contact__form">
+                        <div class="input__container">
+                            <input type="text" class="input" placeholder="Nombre">
+                        </div>
+                        <div class="input__container">
+                            <textarea name="message" id="" placeholder="Escribe tu mensaje"
+                                class="input__messsage"></textarea>
+                        </div>
+                        <button class="form__button">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container__copyright">
+            <p class="footer__copyright">© Copyright Desarrollado por Antony Huaman</p>
+            <span>2023</span>
+        </div>
+    </footer>
+
+    <script type="module" src="controllers/client.controller.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,322 @@
+/*CSS OF LOGIN HTML*/
+
+.login__admin {
+    padding: 4rem 10rem;
+    background: #E5E5E5;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__login {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.input__login {
+    width: 420px;
+    height: 60px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1rem;
+}
+
+.input__login:focus,
+.form__button__login:focus {
+    outline: none;
+}
+
+.form__button__login {
+    width: 200px;
+    height: 60px;
+    border: none;
+    color: var(--text);
+    background: var(--button-see-more);
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*END OF CSS OF LOGIN HTML*/
+
+/*CSS OF ADMIN HTML*/
+
+.products__admin {
+    padding: 4rem 10rem;
+    background: #E5E5E5;
+}
+
+.button__container__admin {
+    display: flex;
+    gap: 30px;
+}
+
+.products__button {
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    background: #2A7AE4;
+    border: none;
+}
+
+.product__add {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.products__list__name-a {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product__img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__imgs {
+    width: 100%;
+}
+
+.product__options {
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    right: 5%;
+    top: 5%;
+}
+
+.options__admin {
+    list-style: none;
+}
+
+.options__admin a {
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.options__admin button {
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*END OF CSS OF ADMIN HTML*/
+
+/*CSS OF ADD PRODUCT*/
+
+.add__product {
+    padding: 4rem 10rem;
+    background: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__product {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.product__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.input__product {
+    width: 420px;
+    height: 60px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1rem;
+}
+
+.input__product:focus {
+    outline: none;
+}
+
+/*END OF CSS OF ADD PRODUCT*/
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    /*CSS OF ADMIN HTML*/
+
+    .products__admin {
+        padding: 4rem 5rem;
+    }
+
+    /*END OF CSS OF ADMIN HTML*/
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /*CSS OF ADMIN HTML*/
+
+    .products__admin {
+        padding: 4rem 1.5rem;
+    }
+
+    /*END OF CSS OF ADMIN HTML*/
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+
+    /*CSS OF HEADER*/
+
+    .button__menu__admin {
+        font-size: 0.85rem;
+    }
+
+    /*END CSS OF HEADER*/
+
+    /*CSS OF LOGIN HTML*/
+
+    .login__admin {
+        padding: 2rem 1rem;
+    }
+
+    .input__login {
+        width: 300px;
+    }
+
+    /*END OF CSS OF LOGIN HTML*/
+
+    /*CSS OF ADMIN HTML*/
+
+    .products__category {
+        font-size: 1.4rem;
+    }
+
+    .button__container__admin {
+        gap: 10px;
+    }
+
+    .products__button {
+        width: 80px;
+        height: 40px;
+    }
+
+    .product__add {
+        font-size: 0.8rem;
+    }
+
+    .products__admin {
+        padding: 2rem 1rem;
+    }
+
+    /*END OF CSS OF ADMIN HTML*/
+
+    /*CSS OF ADD PRODUCT*/
+
+    .add__product {
+        padding: 2rem 1rem;
+    }
+
+    .input__product {
+        width: 300px;
+    }
+
+    /*END OF CSS OF ADD PRODUCT*/
+}
+
+@media screen and (min-width: 280px) and (max-width: 424px) {
+
+    /*CSS OF HEADER*/
+
+    .button__menu__admin {
+        font-size: 0.75rem;
+        width: 100px;
+        height: 40px;
+    }
+
+    /*END CSS OF HEADER*/
+
+    /*CSS OF LOGIN HTML*/
+
+    .login__admin {
+        padding: 1rem;
+    }
+
+    .input__login {
+        width: 220px;
+        font-size: 0.8rem;
+    }
+
+    .form__button__login {
+        width: 120px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    /*END OF CSS OF LOGIN HTML*/
+
+    /*CSS OF ADMIN HTML*/
+
+    .products {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .products__category {
+        font-size: 1.1rem;
+    }
+
+    .button__container__admin {
+        gap: 10px;
+    }
+
+    .products__button {
+        width: 80px;
+        height: 40px;
+    }
+
+    .product__add {
+        font-size: 0.8rem;
+    }
+
+    .products__admin {
+        padding: 2rem 1rem;
+    }
+
+    /*END OF CSS OF ADMIN HTML*/
+
+    /*CSS OF ADD PRODUCT*/
+
+    .add__product {
+        padding: 1rem;
+    }
+
+    .title__product {
+        text-align: center;
+    }
+
+    .input__product {
+        width: 220px;
+        font-size: 0.8rem;
+    }
+
+    /*END OF CSS OF ADD PRODUCT*/
+}

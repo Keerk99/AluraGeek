@@ -1,0 +1,196 @@
+{
+  "product": [
+    {
+      "img": "../resources/img/products/product1.png",
+      "categoria": "Star Wars",
+      "nombre": "Vaso Star Wars",
+      "precio": "S/ 55.00",
+      "description": "Descubre la magia de Star Wars en cada sorbo con nuestra taza en forma de casco blanco. Cada detalle cuidadosamente esculpido te transportará a la galaxia mientras disfrutas de tu bebida favorita, añadiendo un toque épico a tus mañanas y haciéndote sentir parte de la aventura desde el primer instante",
+      "id": "1"
+    },
+    {
+      "img": "../resources/img/products/product2.png",
+      "categoria": "Star Wars",
+      "nombre": "Producto 2",
+      "precio": "S/ 165.00",
+      "description": "Juguete 2",
+      "id": "2"
+    },
+    {
+      "img": "../resources/img/products/product3.png",
+      "categoria": "Star Wars",
+      "nombre": "Yoda",
+      "precio": "S/ 70.00",
+      "description": "Juguete 3",
+      "id": "3"
+    },
+    {
+      "categoria": "Star Wars",
+      "nombre": "Producto 4",
+      "precio": "S/ 75.00",
+      "img": "../resources/img/products/product4.png",
+      "description": "Juguete 4",
+      "id": "4"
+    },
+    {
+      "img": "../resources/img/products/product5.png",
+      "categoria": "Star Wars",
+      "nombre": "Baby Yoda",
+      "precio": "S/ 80.00",
+      "description": "Juguete 5",
+      "id": "5"
+    },
+    {
+      "categoria": "Star Wars",
+      "nombre": "Producto 6",
+      "precio": "S/ 85.00",
+      "img": "../resources/img/products/product6.png",
+      "description": "Juguete 6",
+      "id": "6"
+    },
+    {
+      "categoria": "Consolas",
+      "nombre": "Producto 7",
+      "precio": "S/ 95.00",
+      "img": "../resources/img/products/product7.png",
+      "description": "Juguete 7",
+      "id": "7"
+    },
+    {
+      "img": "../resources/img/products/product8.png",
+      "categoria": "Consolas",
+      "nombre": "PS5",
+      "precio": "S/ 100.00",
+      "description": "Juguete 8",
+      "id": "8"
+    },
+    {
+      "categoria": "Consolas",
+      "nombre": "Producto 9",
+      "precio": "S/ 120.00",
+      "img": "../resources/img/products/product9.png",
+      "description": "Juguete 9",
+      "id": "9"
+    },
+    {
+      "categoria": "Consolas",
+      "nombre": "Producto 10",
+      "precio": "S/ 85.00",
+      "img": "../resources/img/products/product10.png",
+      "description": "Juguete 10",
+      "id": "10"
+    },
+    {
+      "categoria": "Consolas",
+      "nombre": "Producto 11",
+      "precio": "S/ 150.00",
+      "img": "../resources/img/products/product11.png",
+      "description": "Juguete 11",
+      "id": "11"
+    },
+    {
+      "categoria": "Consolas",
+      "nombre": "Producto 12",
+      "precio": "S/ 200.00",
+      "img": "../resources/img/products/product12.png",
+      "description": "Juguete 12",
+      "id": "12"
+    },
+    {
+      "categoria": "Diversos",
+      "nombre": "Producto 13",
+      "precio": "S/ 125.00",
+      "img": "../resources/img/products/product13.png",
+      "description": "Juguete 13",
+      "id": "13"
+    },
+    {
+      "categoria": "Diversos",
+      "nombre": "Producto 14",
+      "precio": "S/ 130.00",
+      "img": "../resources/img/products/product14.png",
+      "description": "Juguete 14",
+      "id": "14"
+    },
+    {
+      "categoria": "Diversos",
+      "nombre": "Producto 15",
+      "precio": "S/ 175.00",
+      "img": "../resources/img/products/product15.png",
+      "description": "Juguete 15",
+      "id": "15"
+    },
+    {
+      "img": "../resources/img/products/product16.png",
+      "categoria": "Diversos",
+      "nombre": "Producto 16",
+      "precio": "S/ 190.00",
+      "description": "Juguete 16",
+      "id": "16"
+    },
+    {
+      "categoria": "Diversos",
+      "nombre": "Producto 17",
+      "precio": "S/ 110.00",
+      "img": "../resources/img/products/product17.png",
+      "description": "Juguete 17",
+      "id": "17"
+    },
+    {
+      "img": "../resources/img/products/product18.png",
+      "categoria": "Diversos",
+      "nombre": "Pikachu",
+      "precio": "S/ 115.00",
+      "description": "Juguete 18",
+      "id": "18"
+    },
+    {
+      "img": "https://omelectronicstenerife.com/cdn/shop/files/1_5e178c56-5bcd-48be-8a1e-7eadd24410ce.jpg?v=1686664914",
+      "categoria": "Consolas",
+      "nombre": "PS5 Mando",
+      "precio": "S/ 480",
+      "description": "Mando de Ps5",
+      "id": "29f35643-d878-4b37-9348-f503009a3cea"
+    },
+    {
+      "img": "https://media.gamestop.com/i/gamestop/11190633?$pdp$",
+      "categoria": "Consolas",
+      "nombre": "PS5 - Mando",
+      "precio": "S/ 550",
+      "description": "Mando de PS5 color Morado",
+      "id": "988cd6a3-90e1-4a88-a0e1-338763d7e282"
+    },
+    {
+      "img": "https://promart.vteximg.com.br/arquivos/ids/5964816-1000-1000/image-b1c21a88bac94ab5890b75a4ddc13ff5.jpg?v=637923017061800000",
+      "categoria": "Diversos",
+      "nombre": "Funko",
+      "precio": "S/ 80",
+      "description": "dasdasd",
+      "id": "09a55b05-0837-4ed2-b22c-d9165ba938bd"
+    },
+    {
+      "img": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2019/12/playstation-4-slim-dualshock.jpg?tf=3840x",
+      "categoria": "Consolas",
+      "nombre": "PS4",
+      "precio": "S/ 1200.00",
+      "description": "PS4 de color negro con mando",
+      "id": "ed777bbd-c9d6-4d16-8d0b-5634f200a7a6"
+    },
+    {
+      "img": "https://http2.mlstatic.com/D_NQ_NP_832540-MLC52419213416_112022-O.webp",
+      "categoria": "Diversos",
+      "nombre": "Esferas del Dragón",
+      "precio": "S/ 220.00",
+      "description": "Esferas del Dragón de tamaño real",
+      "id": "e8146148-c17d-4dcf-8e62-184eccc71536"
+    },
+    {
+      "img": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/461034168997?fmt=jpeg&qlt=90&wid=652&hei=652",
+      "categoria": "Star Wars",
+      "nombre": "Muñecos de Star Wars",
+      "precio": "S/ 180.00",
+      "description": "Muñecos de Star Wars para colección",
+      "id": "ac99233a-123d-4e95-a068-0985f4f7c9c8"
+    }
+  ]
+}

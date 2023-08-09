@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="shortcut icon" href="resources/img/logo_game.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/622f040033.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="resources/css/variables.css">
+    <link rel="stylesheet" href="resources/css/header/style.css">
+    <link rel="stylesheet" href="resources/css/main/style.css">
+    <link rel="stylesheet" href="resources/css/footer/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container__header">
+            <div class="logo">
+                <a href="index.html" class="logo__img"></a>
+            </div>
+            <nav class="navbar">
+                <input type="text" class="navbar__search" placeholder="¿Qué deseas buscar?">
+                <a href="#" class="navbar__button"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </nav>
+            <div class="button__container">
+                <button class="button__login"><a href="screens/login.html">Login</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="details" id="details">
+            <div class="container__details">
+                <div class="container__img__detail">
+                    <img src="" alt="" class="img__details" data-img-detail>
+                </div>
+                <div class="container__text__details">
+                    <h3 class="title__details" data-title-detail></h3>
+                    <p class="details__price" data-price-detail></p>
+                    <p class="details__text" data-text-detail></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container__footer">
+            <div class="container__img">
+                <a href="#" class="logo__img"></a>
+            </div>
+            <div class="container__links">
+                <ul class="links__list">
+                    <li class="links__name"><a href="#">Quienes Somos</a></li>
+                    <li class="links__name"><a href="#">Política de Privacidad</a></li>
+                    <li class="links__name"><a href="#">Programa de Fidelidad</a></li>
+                    <li class="links__name"><a href="#">Nuestras Tiendas</a></li>
+                    <li class="links__name"><a href="#">Quiero ser Fraquiciado</a></li>
+                    <li class="links__name"><a href="#">Anúncie Aquí</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3 class="title">Hable con nosotros</h3>
+                <div class="contact__container">
+                    <form action="" class="contact__form">
+                        <div class="input__container">
+                            <input type="text" class="input" placeholder="Nombre">
+                        </div>
+                        <div class="input__container">
+                            <textarea name="message" id="" placeholder="Escribe tu mensaje"
+                                class="input__messsage"></textarea>
+                        </div>
+                        <button class="form__button">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container__copyright">
+            <p class="footer__copyright">© Copyright Desarrollado por Antony Huaman</p>
+            <span>2023</span>
+        </div>
+    </footer>
+
+    <script type="module" src="controllers/detalle.producto.controller.js"></script>
+
+</body>
+
+</html>

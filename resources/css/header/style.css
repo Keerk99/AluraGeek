@@ -1,0 +1,189 @@
+.container__header {
+    display: flex;
+    margin: 0 10rem;
+    align-items: center;
+    height: 120px;
+}
+
+.logo {
+    width: 180px;
+    display: flex;
+}
+
+.logo__img {
+    background: url('../../img/logo.png') no-repeat center;
+    width: 180px;
+    height: 60px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0 8rem;
+    padding: 0 1rem;
+    background: #F5F5F5;
+}
+
+.navbar__search {
+    height: 50px;
+    width: 400px;
+    border: none;
+    background: transparent;
+    padding: 0 10px 0 5px;
+    font-size: 1rem;
+}
+
+.navbar__search:focus {
+    outline: none;
+}
+
+.navbar__button {
+    color: #A2A2A2;
+    text-decoration: none;
+}
+
+.button__container {
+    margin-left: auto;
+}
+
+.button__login {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #2A7AE4;
+    background: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button__login a {
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    .container__header {
+        margin: 0 5rem;
+    }
+
+    .navbar {
+        margin: 0 2rem;
+    }
+
+    .navbar__search {
+        width: 250px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .container__header {
+        margin: 0 1.5rem;
+    }
+
+    .navbar {
+        margin: 0 1.5rem;
+    }
+
+    .navbar__search {
+        width: 250px;
+    }
+
+    .button__login {
+        width: 150px;
+    }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+
+    .container__header {
+        margin: 0 1rem;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: auto;
+    }
+
+    .logo__img {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 120px;
+    }
+
+    .navbar {
+        margin: 0;
+        padding: 0;
+        background: none;
+        order: 3;
+    }
+
+    .navbar__search {
+        display: none;
+    }
+
+    .navbar__button i {
+        font-size: 1.2rem;
+    }
+
+    .button__container {
+        order: 2;
+        margin-left: 0;
+    }
+
+    .button__login {
+        width: 150px;
+    }
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 424px) {
+
+    .container__header {
+        margin: 0 1rem;
+        justify-content: space-between;
+        height: 80px;
+    }
+
+    .logo {
+        width: auto;
+    }
+
+    .logo__img {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100px;
+    }
+
+    .navbar {
+        margin: 0;
+        padding: 0;
+        background: none;
+        order: 3;
+    }
+
+    .navbar__search {
+        display: none;
+    }
+
+    .navbar__button i {
+        font-size: 1.2rem;
+    }
+
+    .button__container {
+        order: 2;
+        margin-left: 0;
+    }
+
+    .button__login {
+        width: 60px;
+        height: 30px;
+        font-size: 0.8rem;
+    }
+
+}
