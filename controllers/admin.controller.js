@@ -1,5 +1,7 @@
 import { adminServices } from "../service/admin-service.js";
 
+const allProducts = document.querySelector('[data-list-all-products]');
+
 const crearNuevaLinea = (nombre, precio, img, id) => {
     const linea = document.createElement('li');
     linea.classList.add('products__list__name-a');
@@ -20,14 +22,13 @@ const crearNuevaLinea = (nombre, precio, img, id) => {
     const btn = linea.querySelector('button');
     btn.addEventListener('click', () => {
         const id = btn.id;
-        adminServices.deleteProduct(id).then(respuesta => {
-            console.log(respuesta);
+        adminServices.deleteProduct(id).then(() => {
+            allProducts.removeChild(linea);
         }).catch((error) => alert("Ocurrió un error"));
-    })
+    });
     return linea;
 };
 
-const allProducts = document.querySelector('[data-list-all-products]');
 
 (async () => {
     try {
