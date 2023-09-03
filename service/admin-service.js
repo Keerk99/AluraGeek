@@ -1,8 +1,8 @@
 
-const listProducts = () => fetch("http://localhost:3000/product").then(respuesta => respuesta.json());
+const listProducts = () => fetch("http://localhost:3000/api/product").then(respuesta => respuesta.json());
 
 const createProduct = (img, categoria, nombre, precio, description) => {
-    return fetch("http://localhost:3000/product", {
+    return fetch("http://localhost:3000/api/product", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -12,15 +12,15 @@ const createProduct = (img, categoria, nombre, precio, description) => {
 }
 
 const deleteProduct = (id) => {
-    return fetch(`http://localhost:3000/product/${id}`, {
+    return fetch(`http://localhost:3000/api/product/${id}`, {
         method: "DELETE",
     })
 }
 
-const detailProduct = (id) => fetch(`http://localhost:3000/product/${id}`).then(respuesta => respuesta.json());
+const detailProduct = (id) => fetch(`http://localhost:3000/api/product/${id}`).then(respuesta => respuesta.json());
 
 const updateProduct = (img, categoria, nombre, precio, description, id) => {
-    return fetch(`http://localhost:3000/product/${id}`, {
+    return fetch(`http://localhost:3000/api/product/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
