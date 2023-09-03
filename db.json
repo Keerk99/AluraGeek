@@ -4,7 +4,7 @@
       "img": "../resources/img/products/product1.png",
       "categoria": "Star Wars",
       "nombre": "Vaso Star Wars",
-      "precio": "S/ 55.00",
+      "precio": "S/ 50.00",
       "description": "Descubre la magia de Star Wars en cada sorbo con nuestra taza en forma de casco blanco. Cada detalle cuidadosamente esculpido te transportará a la galaxia mientras disfrutas de tu bebida favorita, añadiendo un toque épico a tus mañanas y haciéndote sentir parte de la aventura desde el primer instante",
       "id": "1"
     },
@@ -191,6 +191,14 @@
       "precio": "S/ 180.00",
       "description": "Muñecos de Star Wars para colección",
       "id": "ac99233a-123d-4e95-a068-0985f4f7c9c8"
+    },
+    {
+      "img": "https://mito3d.fra1.digitaloceanspaces.com/3Dprintmodels/cults/youngsterresize",
+      "categoria": "Star Wars",
+      "nombre": "asds",
+      "precio": "asdas",
+      "description": "adasd",
+      "id": "ea74ecfc-17b8-4659-92ab-94700dfe5a98"
     }
   ]
 }

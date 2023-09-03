@@ -1,7 +1,8 @@
-const listProducts = () => fetch("https://64d425ac67b2662bf3dd0029.mockapi.io/product").then(respuesta => respuesta.json());
+
+const listProducts = () => fetch("http://localhost:3000/product").then(respuesta => respuesta.json());
 
 const createProduct = (img, categoria, nombre, precio, description) => {
-    return fetch("https://64d425ac67b2662bf3dd0029.mockapi.io/product", {
+    return fetch("http://localhost:3000/product", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -11,15 +12,15 @@ const createProduct = (img, categoria, nombre, precio, description) => {
 }
 
 const deleteProduct = (id) => {
-    return fetch(`https://64d425ac67b2662bf3dd0029.mockapi.io/product/${id}`, {
+    return fetch(`http://localhost:3000/product/${id}`, {
         method: "DELETE",
     })
 }
 
-const detailProduct = (id) => fetch(`https://64d425ac67b2662bf3dd0029.mockapi.io/product/${id}`).then(respuesta => respuesta.json());
+const detailProduct = (id) => fetch(`http://localhost:3000/product/${id}`).then(respuesta => respuesta.json());
 
 const updateProduct = (img, categoria, nombre, precio, description, id) => {
-    return fetch(`https://64d425ac67b2662bf3dd0029.mockapi.io/product/${id}`, {
+    return fetch(`http://localhost:3000/product/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"

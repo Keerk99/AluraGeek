@@ -1,6 +1,6 @@
-const listProduct = () => fetch("https://64d425ac67b2662bf3dd0029.mockapi.io/product").then(respuesta => respuesta.json());
+const listProduct = () => fetch("http://localhost:3000/product").then(respuesta => respuesta.json());
 
-const productDetail = (id) => fetch(`https://64d425ac67b2662bf3dd0029.mockapi.io/product/${id}`).then(respuesta => respuesta.json());
+const productDetail = (id) => fetch(`http://localhost:3000/product/${id}`).then(respuesta => respuesta.json());
 
 export const clientServices = {
     listProduct,
