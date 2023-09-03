@@ -7,6 +7,9 @@
     }
   ],
   "routes": [
-    { "src": "/api/product", "dest": "http://localhost:3000/api/product" }
+    {
+      "src": "/api/product",
+      "dest": "https://alura-geek-hn1x8scbr-keerk99.vercel.app/api/product"
+    }
   ]
 }
